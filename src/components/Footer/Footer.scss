@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  background: #E5E5E5;
+  &__logo {
+    width: 93px;
+    height: 80px;
+  }
+  &__title {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+  }
+  &__partners {}
+  &__columns {}
+  &__adress {}
+  &__adress_name {}
+  &__adress_location {}
+  &__navigation {}
+  &__navigation_first {}
+  &__navigation-link {}
+  &__navigation_second {}
+  &__navigation_third {}
+  &__misc {}
+  &__copyright {}
+  &__policy {}
+  &__credits {}
+  &__footer__designer {}
+  &__footer__designer-logo {}
+  &__footer__designer-name {}
+  &__developer {}
+
+}

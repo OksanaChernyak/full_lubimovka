@@ -1,0 +1,104 @@
+.performance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30px 144px 184px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.performance__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.performance__wrapper_credits {
+  max-width: 448px;
+}
+.performance__wrapper_main {
+  max-width: 691px;
+}
+.performance__wrapper_misc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-bottom: 20px;
+}
+.performance__longevity {
+  font-family: "Neue Machina Regular";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  padding: 0 16px 0 0;
+  margin: 0;
+  border-right: 1px solid #242424;
+}
+.performance__age {
+  font-family: "Neue Machina Regular";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin: 0;
+  padding: 0 0 0 16px;
+}
+.performance__credits {
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.performance__credit {
+  margin-bottom: 24px;
+  color: #242424;
+}
+.performance__credit:last-of-type {
+  margin-bottom: 0;
+}
+.performance__profession {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+.performance__name {
+  margin: 0 auto 4px 28px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+.performance__video {
+  width: 691px;
+  height: 383px;
+}
+.performance__description {
+  max-width: 602px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #242424;
+  margin-bottom: 80px;
+}
+.performance__paragraph {
+  text-indent: 70px;
+}
+.performance__paragraph:first-of-type {
+  text-indent: 0;
+}

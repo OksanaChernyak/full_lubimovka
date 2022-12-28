@@ -1,0 +1,45 @@
+.official-reviews__title {
+  font-family: "Neue Machina Regular";
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+.official-reviews__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.official-review {
+  width: 718px;
+  padding: 55px 88px 72px;
+  background: #FFFFFF;
+}
+.official-review__text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+.official-review__button {
+  width: 210px;
+  height: 31px;
+  font-size: 16px;
+  line-height: 14px;
+  color: #242424;
+  border: 0;
+  border-bottom: 1px solid #242424;
+  border-left: 1px solid #242424;
+  text-transform: uppercase;
+  text-align: left;
+  background: transparent;
+  background-image: url("../../images/arrow-45.svg");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 7px 7px 10px 28px;
+  background-position: -26px;
+}
+.official-review__button:hover {
+  cursor: pointer;
+}

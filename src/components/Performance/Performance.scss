@@ -1,0 +1,95 @@
+.performance {
+  display: flex;
+  padding: 0 30px 144px 184px;
+  justify-content: space-between;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+
+    &_credits {
+      max-width: 448px;
+    }
+
+    &_main {
+      max-width: 691px;
+    }
+    &_misc {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: start;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__longevity {
+    font-family: 'Neue Machina Regular';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    padding: 0 16px 0 0;
+    margin: 0;
+    border-right: 1px solid #242424;
+  }
+
+  &__age {
+    font-family: 'Neue Machina Regular';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    margin: 0;
+    padding: 0 0 0 16px;
+  }
+
+  &__credits {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  &__credit {
+    margin-bottom: 24px;
+    color: #242424;;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__profession {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__name {
+    margin: 0 auto 4px 28px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  &__video {
+    width: 691px;
+    height: 383px;
+  }
+
+  &__description {
+    max-width: 602px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #242424;
+    margin-bottom: 80px;
+  }
+
+  &__paragraph {
+    text-indent: 70px;
+    &:first-of-type {
+    text-indent: 0;
+  }
+  }
+}

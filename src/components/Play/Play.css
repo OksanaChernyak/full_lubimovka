@@ -1,0 +1,121 @@
+.play {
+  padding-top: 33px;
+  padding-left: 30px;
+}
+.play__projects-btn {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 14px;
+  color: #242424;
+  text-transform: uppercase;
+  border-right: 1px solid #242424;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid #242424;
+  background: transparent;
+  background-image: url("../../images/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 7px 30px 9px 10px;
+}
+.play__projects-btn:hover {
+  cursor: pointer;
+}
+.play__wrapper_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0 68px 90px;
+}
+.play__wrapper_intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.play__wrapper_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.play__title {
+  font-family: "Neue Machina Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 70px;
+  letter-spacing: -0.01em;
+  margin: 62px auto 37px 0;
+  padding: 0;
+  text-align: start;
+}
+.play__subtitle {
+  font-family: "Neue Machina Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  max-width: 418px;
+  text-align: start;
+  margin: 0 0 212px 60px;
+  padding: 0;
+}
+.play__time {
+  font-family: "Neue Machina Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 0 auto 16px 0;
+}
+.play__tickets-btn {
+  width: 240px;
+  height: 56px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: left;
+  border: 1px solid #000000;
+  background: transparent;
+  background-image: url("../../images/arrow-right.svg");
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  padding: 16px 20px 18px 16px;
+  background-position: right;
+}
+.play__tickets-btn:hover {
+  cursor: pointer;
+}
+.play__photo {
+  width: 720px;
+  height: 614px;
+  margin-bottom: 48px;
+}
+.play__intro {
+  font-family: "Neue Machina Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  max-width: 591px;
+  margin: 0;
+  padding: 0;
+}

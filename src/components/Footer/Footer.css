@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  background: #E5E5E5;
+}
+.footer__logo {
+  width: 93px;
+  height: 80px;
+}
+.footer__title {
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+}

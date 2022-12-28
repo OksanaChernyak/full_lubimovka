@@ -1,0 +1,60 @@
+.random-script {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.random-script__wrapper {
+  width: 240px;
+  height: 300px;
+  background: #B7C09D;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 17px;
+}
+.random-script__title {
+  font-family: "Neue Machina Regular";
+  color: #242424;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 24px auto 139px 24px;
+  padding: 0;
+}
+.random-script__button {
+  width: 100%;
+  height: 56px;
+  border: 0;
+  border-top: 1px solid #242424;
+  text-transform: uppercase;
+  padding: 15px 79px 18px 16px;
+  background: transparent;
+  background-image: url("../../images/arrow-45.svg");
+  background-repeat: no-repeat;
+  background-position: 199px;
+}
+.random-script__button:last-of-type {
+  background-image: url("../../images/arrow-down.svg");
+}
+.random-script__button:hover {
+  cursor: pointer;
+}
+.random-script__author {
+  font-family: "Neue Machina Regular";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  max-width: 155px;
+  padding: 0;
+  margin: 0 0 4px 0;
+}
+.random-script__place {
+  max-width: 155px;
+  margin: 0;
+  padding: 0;
+}

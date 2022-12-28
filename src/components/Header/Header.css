@@ -1,0 +1,120 @@
+.header {
+  background: #E5E5E5;
+  border-bottom: solid #242424 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px 20px 11px 30px;
+  font-family: "Formular";
+}
+.header__logo {
+  width: 43px;
+  height: 35px;
+}
+.header__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.header__items {
+  border-right: 1px solid #242424;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 33px 0 29px;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__item {
+  margin-right: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+}
+.header__item:last-of-type {
+  margin-right: 0;
+}
+.header__contact-item {
+  margin-right: 16px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+}
+.header__contact-item:last-of-type {
+  margin-right: 0;
+}
+.header__contact-links {
+  border-right: 1px solid #242424;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 26px 0 24px;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__menu-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  text-decoration: none;
+}
+.header__menu-link:hover {
+  cursor: pointer;
+}
+.header__contact-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  text-decoration: none;
+}
+.header__contact-link:hover {
+  cursor: pointer;
+}
+.header__support-button {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  text-transform: uppercase;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin-left: 23px;
+}
+.header__support-button:hover {
+  cursor: pointer;
+}
