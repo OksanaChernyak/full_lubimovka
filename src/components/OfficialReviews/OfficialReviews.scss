@@ -1,31 +1,49 @@
 .official-reviews {
-  min-width: 0;
-  max-width: 100%;
- padding: 150px 0 112px 362px;
+  padding: 150px 0 112px 362px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 718px;
+    margin-bottom: 36px;
+    align-items: center;
+  }
+  &__navigation-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__title {
     font-family: 'Neue Machina Regular';
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.01em;
+    max-width: 359px;
+    margin: 0;
+    padding: 0;
   }
 
   &__container {
     position: relative;
+    overflow: hidden;
+    max-width: 1078px;
   }
 
   &__wrapper {
     display: flex;
-    min-width: 0;
+    max-width: 1078px;
+    padding: 0 0 112px 0;
+    justify-content: start;
   }
 
   &__button-prev {
-    width: 50px;
+    width: 100px;
     height: 50px;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     border-left: 1px solid #242424;
+    background: transparent;
     background-image: url("../../images/arrow-left.svg");
-    background-origin: content-box;
     background-repeat: no-repeat;
     background-position: 14px;
 
@@ -35,13 +53,13 @@
   }
 
   &__button-next {
-    width: 50px;
+    width: 100px;
     height: 50px;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     border-right: 1px solid #242424;
+    background: transparent;
     background-image: url("../../images/arrow-right.svg");
-    background-origin: content-box;
     background-repeat: no-repeat;
     background-position: 12px;
 
@@ -49,17 +67,13 @@
       cursor: pointer;
     }
   }
-
 }
 
 .official-review {
-  width: 718px;
+  max-width: 718px;
   padding: 55px 88px 72px;
   background: #FFFFFF;
-
-  &__logo {
-
-  }
+  box-sizing: border-box;
 
   &__text {
     font-weight: 300;
@@ -82,7 +96,6 @@
     text-align: left;
     background: transparent;
     background-image: url("../../images/arrow-45.svg");
-    background-origin: content-box;
     background-repeat: no-repeat;
     padding: 7px 7px 10px 28px;
     background-position: -26px;
@@ -111,15 +124,12 @@
   background: #242424;
 }
 
-.swiper-container {
-  width: 100%;
-}
-
-.swiper-wrapper {
-  max-width: 718px;
-}
 
 .swiper-slide {
-  max-width: 718px;
-  overflow: hidden;
+  opacity: .25;
 }
+.swiper-slide-active {
+  opacity: 1;
+}
+
+

@@ -10,15 +10,14 @@ import {useState, useEffect} from "react";
 import {Route, Routes, useNavigate, useLocation} from "react-router-dom";
 import newYorkLogo from "../../images/New-York-Times.png";
 import sobakaLogo from "../../images/sobaka-logo.png";
-
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.official-reviews__container', {
     modules: [Navigation, Pagination],
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
+        nextEl: '.official-reviews__button-next',
+        prevEl: '.official-reviews__button-prev'
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: '.official-reviews__swiper-pagination',
         type: 'bullets',
         clickable: true,
     },
@@ -28,11 +27,8 @@ const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1.5,
     watchOverflow: true,
     spaceBetween: 30,
-    centeredSlides: true,
+    centeredSlides: false,
     effect: 'slide',
-    hashNavigation: {
-        watchState: true,
-    },
     keyboard: {
         enabled: true,
         onlyInViewport: true,
@@ -40,21 +36,29 @@ const swiper = new Swiper('.swiper-container', {
     },
     mousewheel: {
         sensitivity: 1,
-        eventsTarget: ".swiper-container",
-    }
-})
+        eventsTarget: ".official-reviews__container",
+    },
 
+})
 function OfficialReviews() {
+    useEffect(()=> {
+        swiper.init()
+    }, [])
+
     return (
         <section className="official-reviews">
-            <h2 className="official-reviews__title">Рецензии</h2>
-            <div className="official-reviews__container swiper-container">
-                <div className="official-reviews__swiper-pagination swiper-pagination"></div>
-                <div className="official-reviews__button-prev swiper-button-prev"></div>
-                <div className="official-reviews__button-next swiper-button-next"></div>
+            <div className="official-reviews__header">
+                <h2 className="official-reviews__title">Рецензии</h2>
+                <div className="official-reviews__navigation-wrapper">
+                    <div className="official-reviews__swiper-pagination"></div>
+                    <div className="official-reviews__button-prev"></div>
+                    <div className="official-reviews__button-next"></div>
+                </div>
 
+            </div>
+            <div className="official-reviews__container">
                 <div className="official-reviews__wrapper swiper-wrapper">
-                    <div data-hash="slide-1" className="official-review swiper-slide">
+                    <div className="swiper-slide official-review ">
                         <img className="official-review__logo" alt="лого The New York Times" src={newYorkLogo}/>
                         <p className="official-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале
                             провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит
@@ -80,7 +84,7 @@ function OfficialReviews() {
                         <button className="official-review__button" href="#">Читать полностью</button>
                     </div>
 
-                    <div data-hash="slide-2" className="official-review swiper-slide">
+                    <div className="swiper-slide official-review">
                         <img className="official-review__logo" alt="лого Собака" src={sobakaLogo}/>
                         <p className="official-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале
                             провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит
@@ -92,7 +96,7 @@ function OfficialReviews() {
                         <button className="official-review__button" href="#">Читать полностью</button>
                     </div>
 
-                    <div data-hash="slide-3" className="official-review swiper-slide">
+                    <div className="swiper-slide official-review">
                         <img className="official-review__logo" alt="лого" src={newYorkLogo}/>
                         <p className="official-review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Adipisci
@@ -103,7 +107,7 @@ function OfficialReviews() {
                         <button className="official-review__button" href="#">Читать полностью</button>
                     </div>
 
-                    <div data-hash="slide-4" className="official-review swiper-slide">
+                    <div className="swiper-slide official-review">
                         <img className="official-review__logo" alt="лого" src={sobakaLogo}/>
                         <p className="official-review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Accusamus
