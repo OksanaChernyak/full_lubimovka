@@ -9,12 +9,12 @@ import ViewerReviews from "../ViewerReviews/ViewerReviews";
 import SidePhoto from "../SidePhoto/SidePhoto";
 import TellFriends from "../TellFriends/TellFriends";
 
-function Projects() {
+function Projects({back}) {
 
     return (
         <div className="projects">
             <main className="projects__main">
-                <Play/>
+                <Play back={back}/>
                 <Performance/>
                 <Gallery/>
                 <OfficialReviews/>

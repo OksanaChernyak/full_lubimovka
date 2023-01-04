@@ -17,7 +17,7 @@ function App() {
                 <Header/>
                 <Routes>
                     <Route path="/projects"
-                           element={<Projects/>}/>
+                           element={<Projects back={"Проекты"}/>}/>
                 </Routes>
                 <Footer/>
             </div>

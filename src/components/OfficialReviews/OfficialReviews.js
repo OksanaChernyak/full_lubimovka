@@ -1,6 +1,5 @@
 import "./OfficialReviews.scss";
 import Swiper, { Navigation, Pagination } from 'swiper';
-// import Swiper and modules styles
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
@@ -10,6 +9,7 @@ import {useState, useEffect} from "react";
 import {Route, Routes, useNavigate, useLocation} from "react-router-dom";
 import newYorkLogo from "../../images/New-York-Times.png";
 import sobakaLogo from "../../images/sobaka-logo.png";
+
 const swiper = new Swiper('.official-reviews__container', {
     modules: [Navigation, Pagination],
     navigation: {

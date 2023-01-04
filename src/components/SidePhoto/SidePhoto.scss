@@ -1,1 +1,7 @@
-.side-photo {}
+.side-photo {
+  max-width: 1320px;
+  max-height: 404px;
+  margin: 0 auto 40px;
+  justify-content: center;
+  display: flex;
+}

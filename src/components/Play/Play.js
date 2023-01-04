@@ -4,11 +4,11 @@ import {Route, Routes, useNavigate, useLocation} from "react-router-dom";
 import mainPhoto from "../../images/main-photo.jpg";
 
 
-function Play() {
+function Play({back}) {
 
     return (
         <section className="play">
-            <button className="play__projects-btn" type="button">Проекты</button>
+            <button className="play__projects-btn" type="button">{back}</button>
             <div className="play__wrapper_main">
                 <div className="play__wrapper_intro">
                     <h1 className="play__title">С_училища</h1>

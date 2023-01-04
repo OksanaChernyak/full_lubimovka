@@ -1,4 +1,47 @@
 .tell-friends {
-  &__button {}
-  &__title {}
+  margin: 0 412px 139px 362px;
+  position: relative;
+
+  &__buttons {
+    position: absolute;
+    top: -16px;
+    left: 222px;
+  }
+
+  &__button {
+    min-width: 53px;
+    height: 24px;
+
+    border: 0;
+    border-left: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+    background: transparent;
+    background-image: url("../../images/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    font-size: 16px;
+    line-height: 14px;
+    color: #242424;
+    padding: 3px 10px 7px 24px;
+    margin-right: 8px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    font-family: 'Neue Machina Regular';
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    max-width: 666px;
+    margin: 0;
+    padding: 0;
+  }
 }

@@ -1,5 +1,5 @@
 .official-reviews {
-  padding: 150px 0 112px 362px;
+  padding: 0 0 0 362px;
   &__header {
     display: flex;
     justify-content: space-between;
@@ -125,10 +125,10 @@
 }
 
 
-.swiper-slide {
+.official-reviews__wrapper .swiper-slide {
   opacity: .25;
 }
-.swiper-slide-active {
+.official-reviews__wrapper .swiper-slide-active {
   opacity: 1;
 }
 

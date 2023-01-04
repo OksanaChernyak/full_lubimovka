@@ -1,10 +1,28 @@
 .footer {
-  width: 100%;
   background: #E5E5E5;
+  padding: 42px 92px 56px 32px;
+  display: flex;
+  justify-content: space-between;
+
   &__logo {
     width: 93px;
     height: 80px;
   }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1140px;
+  }
+
+  &__partners-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
   &__title {
     font-family: 'Formular';
     font-style: normal;
@@ -12,24 +30,150 @@
     font-size: 14px;
     line-height: 17px;
     color: #242424;
+    max-width: 145px;
+    margin: 0;
+    padding: 0;
   }
-  &__partners {}
-  &__columns {}
-  &__adress {}
-  &__adress_name {}
-  &__adress_location {}
-  &__navigation {}
-  &__navigation_first {}
-  &__navigation-link {}
-  &__navigation_second {}
-  &__navigation_third {}
-  &__misc {}
-  &__copyright {}
-  &__policy {}
-  &__credits {}
-  &__footer__designer {}
-  &__footer__designer-logo {}
-  &__footer__designer-name {}
-  &__developer {}
+
+  &__partners {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__partner {
+    margin-right: 31px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__partner-link {
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 62px 0 49px;
+    padding: 0;
+  }
+
+  &__address-column {
+  }
+
+  &__address_name {
+    font-family: "Neue Machina Regular";
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    margin: 0 auto 16px 0;
+    padding: 0;
+  }
+
+  &__address_location {
+    margin: 0;
+    padding: 0;
+    max-width: 231px;
+  }
+
+  &__navigation-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__navigation-column {
+    list-style-type: none;
+    margin: 0 77px 0 0;
+    padding: 0;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__navigation-element {
+    margin-bottom: 15px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__navigation-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__misc-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+  }
+
+  &__misc {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  &__copyright {
+    padding: 0;
+    margin: 0 32px 0 0;
+  }
+
+  &__policy {
+    text-decoration: none;
+    color: #242424;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  &__designer-logo {
+    width: 27px;
+    height: 25px;
+    margin-right: 4px;
+  }
+
+  &__designer-name {
+    padding: 0;
+    margin: 0 27px 0 0;
+  }
+
+  &__developer {
+    margin: 0;
+    padding: 0;
+  }
 
 }
